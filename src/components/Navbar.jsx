@@ -9,19 +9,20 @@ import { BiFilterAlt } from "react-icons/bi";
 
 const Navbar = () => {
   return (
-    <div className="">
+    <div className="container-fluid" style={{paddingLeft: '0px'}}>
       <nav
-        className="navbar"
+        className="nav"
         style={{
           backgroundColor: "#FFFFFF",
           alignItems: "center",
           justifyContent: "center",
-          margin: "auto",
+          paddingLeft: "0px",
+          paddingTop: "10px",
         }}
       >
         <a
-          className="navbar-brand"
-          style={{ color: "#737373", marginBottom: "12px" }}
+          className="nav"
+          style={{ color: "#737373", margin: "0px 0px 12px 0px", width: "222px"}}
         >
           Controle de demandas
         </a>

@@ -1,16 +1,29 @@
-*
-    padding: 0
-    margin: 0
+*, *::before, *::after
     box-sizing: border-box
 
+*
+    margin: 0
+
+html, body
+    height: 100%
+
 body
-    margin: 0 auto
+    line-height: 1.5
+    -webkit-font-smoothing: antialiased
+
+input, button, textarea, select
+    font: inherit
+
+p, h1, h2, h3, h4, h5, h6
+    overflow-wrap: break-word
+
+#root, #__next
     max-width: 1440px
-    scroll-behavior: smooth
+    margin: 0 auto!important
+    isolation: isolate
 
-p
-    margin-bottom: 0px
+.container-fluid
+    padding: 0px!important
 
-html
-    background-color: #EFEFEF
-
+.row
+    --bs-gutter-x: 0!important

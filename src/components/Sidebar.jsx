@@ -11,7 +11,7 @@ import { GoFile } from "react-icons/go";
 const Sidebar = () => {
   return (
     <div className="container-fluid sidebar"
-      style={{ display: "flex", marginRight: "27px", marginTop: "8px", marginBottom: "0px"}}
+      style={{ display: "flex", marginRight: "27px", marginTop: "8px", marginBottom: "0px", paddingLeft: '0px'}}
     >
       <CDBSidebar textColor="#737373" backgroundColor="#FFFFFF">
         <CDBSidebarFooter>

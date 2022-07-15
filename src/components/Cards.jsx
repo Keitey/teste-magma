@@ -7,7 +7,7 @@ const Cards = () => {
   return (
     <div
       className="container-grid"
-      style={{padding: "12px 5px" }}
+      style={{padding: "12px 5px"}}
     >
       <Card />
       <Card />

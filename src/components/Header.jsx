@@ -11,8 +11,8 @@ import { BsPerson } from "react-icons/bs";
 const Header = () => {
   return (
     <>
-      <nav className="navbar">
-        <div className="container-fluid">
+      <nav className="navbar navbar-expand-lg">
+        <div className="container-fluid container-md" style={{paddingLeft: '0px'}}>
             <div className="logo-nav">
               <img src={logo1} alt="" />
               <img src={logo2} alt="" style={{marginRight:"10px"}}/>

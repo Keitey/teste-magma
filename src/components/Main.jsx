@@ -5,10 +5,11 @@ import Navbar from "./Navbar";
 const Main = () => {
   return (
       <div
-        className="container-main fluid"
+        className="container-fluid"
         style={{
           display: "flex",
           backgroundColor: "#EFEFEF",
+          maxWidth: "1300px",
         }}
       >
         <Sidebar />

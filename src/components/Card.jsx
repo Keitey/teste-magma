@@ -8,9 +8,9 @@ import avatar from "../img/avatar.png";
 const Card = () => {
   return (
     <>
-      <div>
-        <div>
-          <div className="card" style={{width: "328px"}}>
+      <div className="row row-cols-1 row-cols-md-3 g-9 justify-content-justify">
+        <div className="">
+          <div className="card h-100" style={{width: "300px", border:'none'}}>
             <div className="card-body">
               <h5 className="card-title" style={{ marginBottom: "-0.2rem" }}>
                 Gestão de demandas do PMO
