@@ -8,8 +8,8 @@ import avatar from "../img/avatar.png";
 const Card = () => {
   return (
     <>
-      <div className="row row-cols-1 row-cols-md-3 g-9 justify-content-justify">
-        <div className="">
+      <div className="row row-cols-1 row-cols-md-3 g-9">
+        <>
           <div className="card h-100" style={{width: "300px", border:'none'}}>
             <div className="card-body">
               <h5 className="card-title" style={{ marginBottom: "-0.2rem" }}>
@@ -51,7 +51,7 @@ const Card = () => {
               </span>
             </div>
           </div>
-        </div>
+        </>
       </div>
     </>
   );

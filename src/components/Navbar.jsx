@@ -27,9 +27,9 @@ const Navbar = () => {
           Controle de demandas
         </a>
         <form className="d-flex" role="pesquisar">
-          <div class="form-group has-search">
-            <span class="fa fa-search form-control-feedback"></span>
-            <input type="text" class="form-control" placeholder="Pesquisar..." />
+          <div className="form-group has-search">
+            <span className="fa fa-search form-control-feedback"></span>
+            <input type="text" className="form-control" placeholder="Pesquisar..." />
           </div>
           <div className="icons-nav">
             <div className="icones">
